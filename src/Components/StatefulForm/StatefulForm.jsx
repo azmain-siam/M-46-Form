@@ -12,7 +12,7 @@ const StatefulForm = () => {
     if (password.length < 6) {
       setError("Password must contain 6 characters or longer");
     } else {
-      setError('')
+      setError("");
       console.log(name, email, phone, password);
     }
   };
